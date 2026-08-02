@@ -1,0 +1,15 @@
+generated: '2026-07-21'
+method: searched
+source: https://status.eptura.com
+status_page: https://status.eptura.com
+notes: >-
+  Teem is delivered as part of Eptura's workplace portfolio (following the
+  iOFFICE/SpaceIQ merger) and is a monitored component on the shared Eptura
+  status page (Eptura Workplace group), which also tracks "Public API" and
+  "APIs/Webhook" components. No public versioning or deprecation policy is
+  documented on the open surface; developer/API access is managed through the
+  Eptura customer portal (knowledge.eptura.com).
+versioning: null
+deprecation: null
+sla: null
+deprecated_operations: []

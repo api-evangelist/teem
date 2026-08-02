@@ -1,8 +1,29 @@
 aid: teem
-name: Teem *
-description: 'Teem * is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the enrichment
-  pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/teem.png
+name: Teem
+description: >-
+  Teem is a workplace and meeting-room management platform for booking
+  conference rooms and desks, coordinating spaces, and analyzing workplace
+  utilization. Its product surface includes EventBoard room-display scheduling,
+  LobbyConnect visitor management, desk and space booking, calendar
+  integrations (Office 365, Google, Exchange), mobile and desktop apps, email
+  plugins, and workplace analytics. Originally an independent, GV-backed company
+  (formerly EventBoard), Teem was acquired by iOFFICE and is now delivered as
+  part of Eptura's workplace portfolio. Teem historically exposed a developer
+  API and webhooks for custom booking and provisioning workflows; developer and
+  API access is now managed through the Eptura customer portal and Knowledge
+  Center.
 url: https://raw.githubusercontent.com/api-evangelist/teem/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +33,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Enterprise
+- Meeting Rooms
+- Workplace
+- Scheduling
+- Desk Booking
+- Visitor Management
+- Room Booking
+- Space Management
+- Facilities
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +53,33 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://teem.com
+  url: https://www.teem.com/
+- type: Documentation
+  url: https://knowledge.eptura.com/Teem/
+- type: Support
+  url: https://www.teem.com/support/
+- type: Blog
+  url: https://www.teem.com/blog
+- type: Pricing
+  url: https://www.teem.com/pricing
+- type: Login
+  url: https://app.teem.com/
+- type: StatusPage
+  url: https://status.eptura.com
+- type: Lifecycle
+  url: lifecycle/teem-lifecycle.yml
+- type: TrustCenter
+  url: security/teem-trust-center.yml
+- type: Compliance
+  url: https://security.eptura.com/
+- type: Security
+  url: https://security.eptura.com/
+- type: VulnerabilityDisclosure
+  url: security/teem-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/teem-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
